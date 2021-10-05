@@ -4,9 +4,6 @@ import { Card } from 'react-bootstrap'
 
 class SingleBook extends React.Component {
 
-    // state = {
-    //     selected: false
-    // }
 
     render() {
         return (

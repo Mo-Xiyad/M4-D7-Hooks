@@ -5,13 +5,6 @@ const deleteComment = async (asin) => {
      const myHeaders = new Headers();
         myHeaders.append("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTRiMjFlNjRiYjUzZDAwMTViMTllZDYiLCJpYXQiOjE2MzIzMTM4MzAsImV4cCI6MTYzMzUyMzQzMH0.TlCoWBwSkaUXG_HyFMfAQnvBaxp9w-P3yR9s7r6R1yE");
 
-    // try {
-    //     const response = await fetch(`https://striveschool-api.herokuapp.com/api/comments/${id}`, {
-    //         headers: myHeaders
-    //     })
-    // }
-
-
     try {
         let response = await fetch('https://striveschool-api.herokuapp.com/api/comments/' + asin, {
             method: 'DELETE',
