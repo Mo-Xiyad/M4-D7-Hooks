@@ -10,9 +10,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <WarningSign text="Watch out again!" /> */}
-        {/* <MyBadge text="NEW!!" color="info" /> */}
-        {/* <SingleBook book={fantasyBooks[0]} /> */}
         <BookList books={fantasyBooks} />
       </header>
     </div>
